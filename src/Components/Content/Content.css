@@ -1,0 +1,56 @@
+.contentcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hellodiv {
+  background: white;
+  width: 60%;
+  border: 5px solid black;
+  height: 500px;
+}
+
+.placeholder {
+  width: 60%;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.goodbyediv {
+  width: 20%;
+  margin-left: 20px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.organization {
+  border-bottom: 2px solid black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .contentcontainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hellodiv {
+    width: 80%;
+  }
+  .goodbyediv {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}

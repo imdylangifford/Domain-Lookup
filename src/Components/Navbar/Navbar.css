@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid black;
+}
+
+.look {
+  padding-left: 10px;
+}
+
+.search {
+  padding-right: 20px;
+}

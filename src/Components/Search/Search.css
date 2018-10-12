@@ -1,0 +1,22 @@
+.searchinput {
+  width: 60%;
+  height: 40px;
+  border: 5px solid black;
+  font-size: 24px;
+}
+
+.searchbutton {
+  border: 5px solid black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+  height: 50px;
+  margin-left: 20px;
+  width: 21%;
+}
+
+.searchcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
